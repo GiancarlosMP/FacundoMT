@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  font-size: 25px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+#title {
+  background-color: black;
+  color: crimson;
+  margin: 0;
+  font-size: 50px;
+  padding: 5px;
+  width: 100%;
+  display: block;
+}
+
+.temario {
+  display: inline-flex;
+  border: thick dashed salmon;
+  background-color: rgb(120, 120, 120);
+}
+
+.temario a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 9px;
+  color: cadetblue;
+  font-weight: bold;
+  font-size: 30px;
+  border: medium solid purple;
+  border-radius: 10px;
+}
+
+.temario button {
+  border: medium solid chartreuse;
+  background-color: rgb(120, 120, 120);
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.info {
+  color: darkkhaki;
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  background-color: darkmagenta;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.info table {
+  flex-grow: 1;
+}
+
+.info td {
+  font-size: 20px;
+}
+
+.float-left {
+  float: right;
+}
+
+.viaje {
+  width: 100%;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  font-size: 35px;
+  color: burlywood;
+  background-color: aqua;
+}
+
+.container {
+  height: auto;
+}
+
+img {
+  z-index: 1000;
+}
+
+.reyes {
+  margin-top: 0;
+  margin-right: 20px;
+  float: right;
+  width: 450px;
+  height: 220px;
+}
+
+.barcos {
+  width: 400px;
+  margin-top: -24px;
+}
+
+.navidad {
+  width: 400px;
+  height: 300px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.arresto {
+  width: 55%;
+  height: 300px;
+}
+
+.montañas {
+  width: 50%;
+  height: 300px;
+}
+
+.molusco {
+  border: medium solid black;
+  margin-top: 50px;
+}
